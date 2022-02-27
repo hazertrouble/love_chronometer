@@ -40,7 +40,7 @@ function write() {
    mt = ('0' + m).slice(-2);
    ht = ('0' + h).slice(-2);
 
-   days.innerHTML = `${d} dias`;
+   days.innerHTML = `${d} days`;
    time1.innerHTML = `${ht}:${mt}:`;
    time2.innerHTML = `${st}.${mlst}`;
 }
